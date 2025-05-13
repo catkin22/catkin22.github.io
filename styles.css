@@ -1,0 +1,38 @@
+body{
+	background-color:#848482;
+	font-family:Franklin Gothic Demi;
+	
+
+
+	
+}
+@keyframes myAnim { 
+
+0% {background-color: yellow;} 
+
+50% {background-color: darkyellow;} 
+
+100% {background-color: Black;} 
+
+} 
+
+nav a:hover{
+	background-color:grey;
+	animation: myAnim 5s infinite; 
+}
+
+
+
+
+nav a{
+	display:inline-block;
+	width:175px;
+	background-color:Black ;
+	color:white;
+	border:2px solid black;
+	text-align:center;
+	
+	
+	
+	
+}
